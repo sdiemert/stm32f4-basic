@@ -46,7 +46,10 @@ The provided Makefile contains the required commands to compile and assemble the
 make
 ```
 
-Which should produce a `main.bin` file in the working directory. Now upload this to the STM32 Nucleo using the stlink utility:
+Which should produce a `main.bin` file in the working directory.
+
+### Step 2.2: Upload to Microprocessor
+Now upload this to the STM32 Nucleo using the stlink utility:
 
 ```
 st-flash write main.bin 0x8000000
